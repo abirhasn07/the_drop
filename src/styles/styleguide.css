@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Agrandir;
+    src: url(../Fonts/Agrandir-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Agrandir;
+    src: url(../Fonts/Agrandir-TextBold.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Agrandir;
+    src: url(../Fonts/Agrandir-TextBold.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Agrandir;
+    src: url(../Fonts/Agrandir-GrandHeavy.otf);
+    font-weight: 700;
+}
+:root{
+     /* font list  */
+     --fs-h1:96px;
+     --fs-h2:64px;
+     --fs-h3:32px;
+     --fs-h4:24px;
+     --fs-h5:16px;
+     --fs-h6:14px;
+     /* color list  */
+     --clr-primary:#F6F6F6;
+     --clr-secondary:#101010;
+     --clr-secondary-100:#262626b8;
+     --clr-accent:#F14210;
+
+     /* font family */
+     --ff-primary:Agrandir;
+}
+
+
+
+.container{
+    width: 90%;
+    margin-inline: auto;
+
+}
+
+.text-primary{
+    font-size: var(--fs-h1);
+    color: var(--clr-secondary);
+    line-height: 90%;
+    text-transform: uppercase;
+    letter-spacing: -2%;
+    font-weight: 700;
+   
+
+}
+
+.text-secondary{
+    font-size: var(--fs-h2);
+    color: var(--clr-secondary);
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0%;
+    font-weight: 700;
+    
+}
+.text-secondary-orange{
+    font-size: var(--fs-h2);
+    color: var(--clr-accent);
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0%;
+    font-weight: 700;
+    
+}
+
+.text-stroke{
+color: transparent;
+-webkit-text-stroke: 2px var(--clr-secondary);
+}
+
+
+.section-title{
+    font-size: var(--fs-h5);
+    letter-spacing: 30%;
+    line-height: 150%;
+    font-weight: 500;
+    color: var(--clr-primary);
+
+}
+.section-title-orange{
+    font-size: var(--fs-h5);
+    letter-spacing: 30%;
+    line-height: 150%;
+    font-weight: 500;
+    color: var(--clr-accent);
+
+}
+
+.list-style{
+    font-size:var(--fs-h5) ;
+    list-style: none;
+    color: var(--clr-secondary);
+    font-weight: 500;
+}
+.list-style-light{
+    font-size:var(--fs-h5) ;
+    list-style: none;
+    color: var(--clr-secondary-100);
+    font-weight: 500;
+}
+
+.paragraph{
+    font-size: var(--fs-h4);
+    color: var(--clr-secondary);
+    font-weight: 400;
+    letter-spacing: 150%;
+}
+
+.product-name{
+    font-size: var(--fs-h4);
+    color: var(--clr-secondary);
+    font-weight: 500;
+    letter-spacing: 150%;
+}
+
+.terms{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--clr-secondary);
+}
+
+.button-primary{
+    min-width: 120px;
+    border: 1px solid var(--clr-secondary);
+    font-size: var(--fs-h5);
+    color: var(--clr-secondary);
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+.button-accent{
+    min-width: 170px;
+    border: 1px solid var(--clr-secondary);
+    font-size: var(--fs-h5);
+    color: var(--clr-primary);
+    padding: 0;
+    margin: 0;
+    background-color: var(--clr-accent);
+ 
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
